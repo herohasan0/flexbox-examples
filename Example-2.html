@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example-2</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .timeline {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 500px;
+        width: 650px;
+        padding: 15px;
+        margin: auto;
+      }
+      .card {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fff;
+        width: 100%;
+        height: 80px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.103);
+        border-radius: 5px;
+        padding: 20px;
+      }
+      .content {
+        flex-grow: 1;
+        margin-left: 20px;
+      }
+      .svg {
+        background-color: yellow;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+      }
+      .arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 100%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="timeline">
+      <div class="card">
+        <div class="svg"></div>
+        <div class="content">
+          <h3>How to clean your smartphone safely</h3>
+          <p>
+            Here's how to clean your device effectively using household soap and
+            water.
+          </p>
+        </div>
+        <div class="arrow">></div>
+      </div>
+
+      <div class="card">
+        <div class="svg"></div>
+        <div class="content">
+          <h3>Wall Street rallies after Trump declaration</h3>
+          <p>
+            The rally follows the biggest one-day declines in the US and UK
+            since Black Monday in 1987.
+          </p>
+        </div>
+        <div class="arrow">></div>
+      </div>
+
+      <div class="card">
+        <div class="svg"></div>
+        <div class="content">
+          <h3>Bill Gates steps down from Microsoft board</h3>
+          <p>
+            The company's 65-year-old co-founder will spend more time on
+            philanthropic activities.
+          </p>
+        </div>
+        <div class="arrow">></div>
+      </div>
+
+      <div class="card">
+        <div class="svg"></div>
+        <div class="content">
+          <h3>Trump declares national emergency over coronavirus</h3>
+          <p>
+            The order allows the federal government to tap up to $50bn (£40bn)
+            in emergency relief funds.
+          </p>
+        </div>
+        <div class="arrow">></div>
+      </div>
+    </div>
+  </body>
+</html>
